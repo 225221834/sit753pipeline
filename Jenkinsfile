@@ -7,7 +7,7 @@ pipeline{
                 echo "Build the application completed successfully"
            }
           }
-
+         // This show successful test
           stage('Test'){
                steps{
                 echo "Run tests on the application completed successfully"
