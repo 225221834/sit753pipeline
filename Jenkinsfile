@@ -19,7 +19,7 @@ pipeline{
                 echo "Checking code quality completed successfully"
            }
           }
-
+            // This show successful deployment
           stage('Deploy'){
                steps{
                 echo "Deployment of the application completed successfully"
