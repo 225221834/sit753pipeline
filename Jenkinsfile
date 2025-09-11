@@ -13,7 +13,7 @@ pipeline{
                 echo "Run tests on the application completed successfully"
            }
           }
-
+         // This show successful code quality
           stage('Code Quality'){
                steps{
                 echo "Checking code quality completed successfully"
