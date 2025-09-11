@@ -22,7 +22,7 @@ pipeline{
             // This show successful deployment
           stage('Deploy'){
                steps{
-                echo "Deployment of the application completed successfully"
+                echo "Code deployment of the application completed successfully"
            }
           }
          
